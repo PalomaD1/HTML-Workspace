@@ -1,0 +1,274 @@
+<!doctype html>
+<!-- CSS Assignment for Web Dev Class -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paloma_DSilva_991411103</title>
+<style>
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: center;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+	
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+*{border:1px black;}
+body{
+margin: 0;
+padding: 0;
+background-color: pink;
+border: 0;
+overflow: hidden;
+height: 100%; 
+max-height: 100%; 
+}
+
+#VerticalMenu { width: 200px; }
+
+#VerticalMenu ul
+{
+margin-left: 0;
+padding-left: 0;
+list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#VerticalMenu a
+{
+display: block;
+padding: 3px;
+width: 160px;
+background-color: #036;
+border-bottom: 1px solid #eee;
+}
+
+#VerticalMenu a:link, #navlist a:visited
+{
+color: #EEE;
+text-decoration: none;
+}
+
+#VerticalMenu a:hover
+{
+background-color: #369;
+color: #fff;
+}
+
+
+
+
+
+
+#divLeft, #divRight{
+position: absolute; 
+top: 0; 
+left: 0; 
+width: 200px; /*Width of left frame div*/
+height: 100%;
+hover: {background-color: #000000;}
+overflow: hidden; /*Disable scrollbars. Set to "scroll" to enable*/
+background-color: purple;
+}
+
+
+#divMain{
+position: fixed; 
+background-color: pink;
+top: 10px;
+left: 200px; /*Set left value to WidthOfLeftFrameDiv*/
+right: 0px; /*Set right value to WidthOfRightFrameDiv*/
+bottom: 40px; /*set bottom value to width of bottom*/
+overflow: scroll; 
+background: #fff;
+
+}
+
+
+ul#navlist
+{
+margin-left: 0;
+padding-left: 0;
+white-space: nowrap;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+}
+
+#navlist a { padding: 3px 10px; }
+
+#navlist a:link, #navlist a:visited
+{
+color: #fff;
+background-color: pink;
+text-decoration: none;
+}
+
+#navlist a:hover
+{
+color: #fff;
+background-color: #369;
+text-decoration: none;
+}
+
+ul.a {list-style-type: none;}
+
+{
+    position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+
+}
+
+li {
+    display: inline;
+}
+
+.footer{ 
+       position: fixed;     
+       text-align: center;    
+       bottom: 0px; 
+       width: 100%;
+   }  
+
+
+</style>
+</head>
+
+<body>
+<div id="VerticalMenu">
+<ul id="navlist">
+<li id="active"><a href="#" id="current">Accessories</a></li>
+<li><a href="#">Intimates</a></li>
+<li><a href="#">Tops</a></li>
+<li><a href="#">Bottoms</a></li>
+</ul>
+</div>
+
+<div id="divMain">
+	
+  <h1 align="center"><img src="https://lh3.ggpht.com/FsWjzD_YdIHjNCxXOTMHo0psJLi3UlhYSXTC48kt4Y-CcHKS1UzzGy9qF3HvB6maa6mN=w300" alt="Ribbon" style="width:100px;height:100px;" > Paloma's Fashion Store </h1>
+	<h2><center>Where Style Meets Life<center></h2>
+
+ <div id="HorizontalMenu">
+<ul id="navlist">
+<li id="active"><a href="#" id="current"> Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+   <h4> Products</h4>
+   
+   <div class="img">
+    <img src= "https://kitzkatzdudz.files.wordpress.com/2011/06/ls1153_pink.png" alt="Pink Rose Bag" style="width:100px;height:100px;">
+  <div class="desc">Pink Rose Bag</div>
+</div>
+
+<div class="img">
+    <img src="http://img.allw.mn/content/www/2010/10/10-must-have-winter-accessories/retro-fedora-hat_10-must-have-winter-accessories.jpg" alt="Retro Fedora Hat" style="width:100px;height:100px;">
+  <div class="desc">Retro Fedora Hat</div>
+</div>
+
+<div class="img">
+    <img src="http://flowerpowertiedye.com/images/products/149.jpg" alt="Tie Dye Shirt" style="width:100px;height:100px;">
+  <div class="desc">Tie Dye Shirt</div>
+</div>
+
+<div class="img">
+    <img src="http://images.nyandcompany.com/is/image/NewYorkCompany/productlist2/Soho-Jeans-Instantly-Slimming-Skinny-Tall_09071653_142.jpg" alt="Women's Jeans" style="width:100px;height:100px;">
+  <div class="desc">Ladies' Jeans</div>
+</div>
+
+<div class="img">
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/c5/b6/a0/c5b6a0d8e98676155e74f1cbe9f5c7ec.jpg" alt="American Princess Bathing Suit" style="width:100px;height:100px;" >
+  <div class="desc">Princess Bathing Suit</div>
+</div>
+
+<div class="img">
+   <img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=63957463>" alt="Red Riding Blazer" style="width:100px;height:100px;">
+  <div class="desc">Red Riding Blazer</div>
+</div>
+
+<div class="img">
+   <img src="http://www.bbcshop.com/content/ebiz/bbc/invt/dw4scarf/dw_4th_doctor_scarf_300.jpg" alt="Classy Scarf" style="width:100px;height:100px;">
+  <div class="desc">Classy Scarf</div>
+</div>
+
+<div class="img">
+    <img src="http://images.selfridges.com/is/image//selfridges/926-10004-4888350309_RED_M?$PDP_M_ZOOM$" alt="Red High Heels" style="width:100px;height:100px;">
+  <div class="desc">Red High Heels</div>
+</div>
+
+<div class="img">
+    <img src="https://i.s-jcrew.com/is/image/jcrew/01682_ED1811?$pdp_fs418$" alt="Necklace" style="width:100px;height:100px;">
+  <div class="desc">Necklace</div>
+</div>
+ 
+   
+ <div class="footer">&#174; 2016 by Paloma D'Silva</div><ul>
+
+   </ul>
+ 
+  
+
+ 
+   </div>
+
+   
+  
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!doctype html>
+<!-- CSS Assignment for Web Dev Class -->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Paloma_DSilva_991411103</title>
+<style>
+
+
+</style>
+</head>
+
+<body>
+<div id="VerticalMenu">
+<ul id="navlist">
+<li id="active"><a href="#" id="current">Accessories</a></li>
+<li><a href="#">Intimates</a></li>
+<li><a href="#">Tops</a></li>
+<li><a href="#">Bottoms</a></li>
+</ul>
+</div>
+
+<div id="divMain">
+	
+  <h1 align="center"><img src="https://lh3.ggpht.com/FsWjzD_YdIHjNCxXOTMHo0psJLi3UlhYSXTC48kt4Y-CcHKS1UzzGy9qF3HvB6maa6mN=w300" alt="Ribbon" style="width:100px;height:100px;" > Paloma's Fashion Store </h1>
+	<h2><center>Where Style Meets Life<center></h2>
+
+ <div id="HorizontalMenu">
+<ul id="navlist">
+<li id="active"><a href="#" id="current"> Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+   <h4> Products</h4>
+   
+   <div class="img">
+    <img src= "https://kitzkatzdudz.files.wordpress.com/2011/06/ls1153_pink.png" alt="Pink Rose Bag" style="width:100px;height:100px;">
+  <div class="desc">Pink Rose Bag</div>
+</div>
+
+<div class="img">
+    <img src="http://img.allw.mn/content/www/2010/10/10-must-have-winter-accessories/retro-fedora-hat_10-must-have-winter-accessories.jpg" alt="Retro Fedora Hat" style="width:100px;height:100px;">
+  <div class="desc">Retro Fedora Hat</div>
+</div>
+
+<div class="img">
+    <img src="http://flowerpowertiedye.com/images/products/149.jpg" alt="Tie Dye Shirt" style="width:100px;height:100px;">
+  <div class="desc">Tie Dye Shirt</div>
+</div>
+
+<div class="img">
+    <img src="http://images.nyandcompany.com/is/image/NewYorkCompany/productlist2/Soho-Jeans-Instantly-Slimming-Skinny-Tall_09071653_142.jpg" alt="Women's Jeans" style="width:100px;height:100px;">
+  <div class="desc">Ladies' Jeans</div>
+</div>
+
+<div class="img">
+    <img src="https://s-media-cache-ak0.pinimg.com/236x/c5/b6/a0/c5b6a0d8e98676155e74f1cbe9f5c7ec.jpg" alt="American Princess Bathing Suit" style="width:100px;height:100px;" >
+  <div class="desc">Princess Bathing Suit</div>
+</div>
+
+<div class="img">
+   <img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=63957463>" alt="Red Riding Blazer" style="width:100px;height:100px;">
+  <div class="desc">Red Riding Blazer</div>
+</div>
+
+<div class="img">
+   <img src="http://www.bbcshop.com/content/ebiz/bbc/invt/dw4scarf/dw_4th_doctor_scarf_300.jpg" alt="Classy Scarf" style="width:100px;height:100px;">
+  <div class="desc">Classy Scarf</div>
+</div>
+
+<div class="img">
+    <img src="http://images.selfridges.com/is/image//selfridges/926-10004-4888350309_RED_M?$PDP_M_ZOOM$" alt="Red High Heels" style="width:100px;height:100px;">
+  <div class="desc">Red High Heels</div>
+</div>
+
+<div class="img">
+    <img src="https://i.s-jcrew.com/is/image/jcrew/01682_ED1811?$pdp_fs418$" alt="Necklace" style="width:100px;height:100px;">
+  <div class="desc">Necklace</div>
+</div>
+ 
+   
+ <div class="footer">&#174; 2016 by Paloma D'Silva</div><ul>
+
+   </ul>
+ 
+  
+
+ 
+   </div>
+
+   
+  
+
+</body>
+</html>
