@@ -1,0 +1,41 @@
+
+           body  {
+                background-image: url("http://www.dailybackgrounds.com/wp-content/uploads/2014/12/fantastic-tim-hortons-cookies.jpg");
+                color: beige;
+                margin-left: 50px;
+            }
+
+            h1 {
+
+                color: brown;
+            }
+
+            form{
+                border: 6px solid brown;
+                border-radius: 1px;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                color:black;
+                background-color: white;
+            }
+            th, td {
+                padding: 20px;
+            }
+
+            th {
+                text-align: left;
+            }
+            
+            p {
+            
+               margin-left: 40px;
+            }
+  #buttons input
+{
+    float:left; 
+     margin-left: 40px;
+   
+}
