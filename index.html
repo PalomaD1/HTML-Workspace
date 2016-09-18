@@ -1,0 +1,136 @@
+	<title>Assignment 1 for Paloma D'Silva</title>
+
+	<head>
+
+	<style>
+	body  {
+		background-image: url("http://i.telegraph.co.uk/multimedia/archive/03015/RockPaperScissors_3015010b.jpg");
+		background-color: #cccccc;
+	}
+
+	</style>
+
+	</head>
+	<body>
+
+	<h1> Assignment 1<br>Paloma D'Silva</br><br>Instructor: Dr. Maryam Davoudpour</br>
+	<hr></hr></h1>
+
+	<p>Click the button to play Rock Paper Scissors.</p>
+	<!--let's play Rock Paper Scissors button-->
+	<button onclick="playFunction()">Play</button>
+
+	<script>
+	var count=0,userwin=0, compwin=0;
+	var userselect, computerselect, again;
+
+	function playFunction() {
+	//Ask the user to choose their move using a prompt() dialog box.
+	userselect = prompt("Please type in R for Rock, P for Paper and S for Scissors.", "R");
+	//Keep asking the user their move if the user enters some invalid input.
+		if (userselect!=="R" && userselect!=="P" && userselect!=="S") {
+			alert("Invalid Input, please try again. Type in R,P, or S.");
+		} <!--end if-->
+		else{
+		computerPlay()}
+	}<!--end function loop-->
+	<!--continue with game-->
+
+	 function computerPlay(){
+	 <!--computer chooses its move randomly-->;
+	computerselect = Math.random();
+	if (computerselect <=0.33) {
+		computerselect = "R";
+	alert("The computer picks Rock");
+	} else if(computerselect >0.33 && computerselect<=0.66) {
+		computerselect = "P";
+	alert("The computer picks Paper");
+	} else {
+		computerselect = "S";
+	alert("The computer picks Scissors");
+	}<!--end if-->
+	comparethis();//run the next method
+	}<!--end the computerplay method-->
+	<!--works fine till here DON'T DELETE TILL HERE-->
+	<!--start the rest of the game-->
+
+	function comparethis(){ //start the compare this function
+	alert("Let's see if you won!");
+	//start conditions
+	if (computerselect === userselect)
+		{
+			alert("It's a tie!");
+		}
+		else if (computerselect === "R")
+		{
+			if(userselect === "S")
+			{
+				alert("You lose!");
+				compwin++;
+			}
+			else
+			{
+				alert("You win!");
+				userwin++;
+			}
+		}
+		else if (computerselect === "P")
+		{
+			if (userselect === "R")
+			{
+				alert("You lose!");
+				compwin++;
+			}
+			else
+			{
+				alert("You win!");
+				userwin++;
+			}
+		}
+		else
+		{
+			if (userselect === "R")
+			{
+				alert("You win!");
+				userwin++;
+			}
+			else
+			{
+				alert("You lose!");
+				compwin++;
+			}
+			
+		}
+		
+
+	//play again
+	again=prompt("Would you like to play again?(Yes/No)");//assign the result to a var again
+	
+	if(again==="Yes")
+	{
+	  // count++;
+		alert("You have played " + count++ + " games");
+		playFunction();
+	}
+	
+	else
+	{
+	 //  count++;
+	   alert("You have played " + count++ + " games");
+		alert("Thanks for playing");
+		alert("User Score:" + userwin++ ) ;
+		alert("Computer Score:" + compwin++ ) ; 
+	} 
+	
+	
+	
+	
+
+	}//end method
+
+
+	</script>
+
+
+	</body>
+	</html>
