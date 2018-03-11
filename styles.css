@@ -1,0 +1,115 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.wrapper {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 50px;
+}
+  
+  .w3-container{
+  background-color: white;
+  color: black;
+  display: inline-block;
+  text-align:right;
+  }
+  
+ #mySidenav2{
+   float: right;
+    width: 10px;
+  align: right;
+	 position: absolute; 
+	 right: 0; 
+	 text-align: right;
+  }
+
+.button {
+  background: #0ead98;
+  background-image: -webkit-linear-gradient(top, #0ead98, #2bafb8);
+  background-image: -moz-linear-gradient(top, #0ead98, #2bafb8);
+  background-image: -ms-linear-gradient(top, #0ead98, #2bafb8);
+  background-image: -o-linear-gradient(top, #0ead98, #2bafb8);
+  background-image: linear-gradient(to bottom, #0ead98, #2bafb8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #f2f5f5 2px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#homepage{
+
+  background-color: LightSeaGreen;
+}
+
+#header{ 
+background-color: rgb(27, 152, 145);
+color: White;
+   padding: 10px;
+}
+
+h3 {
+font-family: "Lato", sans-serif;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#clearfilters{
+display:inline-block;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

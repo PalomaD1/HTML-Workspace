@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.10/css/weather-icons.css" rel="stylesheet" /><!--cdn library for weather icons-->
+  <link rel="stylesheet" href="http://andymatthews.net/code/jQuery-Mobile-Bootstrap-Theme/themes/Bootstrap.css">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+        <link rel="stylesheet" href="http://andymatthews.net/code/jQuery-Mobile-Bootstrap-Theme/themes/jquery.mobile.icons.min.css" />
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+  <div data-role="page" id="homepage">
+    <div data-role="header">
+    </div>
+    <div role="main" class="ui-content">
+    <button id="btnLocation">Use Your Location</button>
+   
+
+    
+  <div data-role="header">
+      <h1>Today's Weather</h1>
+    </div>
+      <div class="container">
+
+  <div>
+    <canvas id="todaysweatherchart"></canvas>
+   <script></script>
+  </div>
+
+</div>
+ 
+
+    <div data-role="header">
+      <h1>Weekly Weather</h1>
+    </div>
+    <!--the second div for weekly-->
+     <div>
+    <canvas id="weeklyweatherchart"></canvas>
+   <script>
+   
+   </script>
+  </div>
+
+    <div data-role="footer">
+      <h3>By Paloma D'Silva</h3>
+    </div>
+  </div>  
+
+
+</body>
+  <script src="script.js"></script>
+</html>
